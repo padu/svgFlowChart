@@ -62,7 +62,7 @@ angular.module('app', ['flowChart',])
 				{
 					"name": "Input File",
 					"id": 0,
-					"x": 46,
+					"x": 52,
 					"y": 28,
 					"width": 40,
 					"text_position": "down",
@@ -77,7 +77,7 @@ angular.module('app', ['flowChart',])
 					"id": 1,
 					"x": 229,
 					"y": 15,
-					"type":'rule-block',
+					"type": "rule-block",
 					"inputConnectors": [
 						{
 							"name": "in"
@@ -104,7 +104,7 @@ angular.module('app', ['flowChart',])
 					"id": 2,
 					"x": 233,
 					"y": 127,
-					"type":'rule-block',
+					"type": "rule-block",
 					"inputConnectors": [
 						{
 							"name": "in"
@@ -131,7 +131,7 @@ angular.module('app', ['flowChart',])
 					"id": 4,
 					"x": 48,
 					"y": 362,
-					"type":'rule-block',
+					"type": "rule-block",
 					"inputConnectors": [
 						{
 							"name": "in"
@@ -156,8 +156,8 @@ angular.module('app', ['flowChart',])
 				{
 					"name": "Sort",
 					"id": 5,
-					"x": 568,
-					"y": 21,
+					"x": 575,
+					"y": 22,
 					"inputConnectors": [
 						{
 							"name": "in1"
@@ -178,7 +178,7 @@ angular.module('app', ['flowChart',])
 					"id": 6,
 					"x": 49,
 					"y": 105,
-					"type":'rule-block',
+					"type": "rule-block",
 					"inputConnectors": [
 						{
 							"name": "in1"
@@ -200,8 +200,8 @@ angular.module('app', ['flowChart',])
 				{
 					"name": "All Records that failed business rules",
 					"id": 7,
-					"x": 50,
-					"y": 223,
+					"x": 81,
+					"y": 220,
 					"text_position": "down",
 					"inputConnectors": [
 						{
